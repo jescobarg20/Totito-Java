@@ -1,3 +1,6 @@
+//Nombre: Johnny Brandon Escobar Garcia
+//Carnet: 7690-25-1502
+
 import java.util.Scanner;
 
 public class Juego {
@@ -32,6 +35,9 @@ public class Juego {
         turno=jugador1;
     }
 
+    /**
+     * 
+     */
     public void jugar(){
 
         boolean jugando=true;
@@ -72,7 +78,7 @@ public class Juego {
                 ArchivoPartida.guardar(this);
             }
             if(op==3){
-                jugando=false;
+                jugando = false;
             }
         }
     }

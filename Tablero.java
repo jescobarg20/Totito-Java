@@ -1,3 +1,6 @@
+//Nombre: Johnny Brandon Escobar Garcia
+//Carnet: 7690-25-1502
+
 public final class Tablero {
     
     private char[][] tablero;
